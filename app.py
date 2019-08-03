@@ -8,8 +8,8 @@ app = Flask(__name__)
 
 # This needs to be filled with the Page Access Token that will be provided
 # by the Facebook App that will be created.
-PAT = 'EAADTk1w6nTQBAIvJNQwELQeaybMKm5QEke0qALECWBYtG9LG1p97la2Sdv8nIdAW2VcZBWb1CWPYVpHLpjUz23BWwBF2kTIsZBFUmcdknhWuK6KUPNFI2CwwNkZBbRn0NOIGxu2SRwoU6ZBFS9gyZAMVzPeURxJ34275Xcwc7OIjxsa3BQHvP'
-reddit=praw.Reddit(client_id='EmKyAVOd_Lv-AA',client_secret='a2fM-qmVNQH6J-ejLtrzfT6LyJs',user_agent='Fellaini_Legend')
+PAT = '******'
+reddit=praw.Reddit(client_id='***',client_secret='****',user_agent='***')
 @app.route('/', methods=['GET'])
 def handle_verification():
   print("Handling Verification.")
